@@ -1,18 +1,13 @@
-# [Global: HTML5 website template](http://buckymaler.com/global)
+# [RODINcode Official Website](http://rodincode.github.io)
 
-### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)
+### [Start Coding](http://rodincode.herokuapp.com)
 
-Global is a modern and sleek website template crafted for professionals in the creative industry. Global can serve as a single page portfolio or be easily modified to serve as the perfect beginning for a hip creative agency.
+RODINcode is an online academy for coders interested in virtual robotics, python, data science and AI. 
+The courses are maintained by [Rohan Sahni](https://www.rohanishere.herokuapp.io).
 
-The original PSD is included and was provided by [Sergey Melnik](https://www.behance.net/SergeyMelnik).
-
-This project was developed with HTML5, Sass, jQuery, and Hammer.js.
-
-Performance basics are covered: assets are minified into single CSS and JS files, and the images are optimized.
-
-[LIVE PREVIEW](http://buckymaler.com/global)
+[GITHUB](http://github.com/rodincode)
 
 ## Misc:
 
-* Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
-* Follow Sergey: [Dribbble](https://dribbble.com/sergeymelnik), [Bēhance](https://www.behance.net/SergeyMelnik)
+* Follow Us on Twitter: [Twitter](https://twitter.com/rodincode), [GitHub](https://github.com/rodincode)
+* Follow Us on Instagram: [Instagram](https://instagram.com/rodincode), [Facebook](https://www.facebook.com/rodincode)
