@@ -10,57 +10,7 @@
   <meta name="author" content="rodincode">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/img/favicon.ico" sizes="16x16" type="image/ico">
-<style>
-/*======================================
-//--//-->   INTRO
-======================================*/
 
-.intro-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
-}
-
-.intro .intro-subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-.intro .text-slider-items {
-  display: none;
-}
-
-.intro-single {
-  height: 350px;
-}
-
-.intro-single .intro-content {
-  margin-top: 30px;
-}
-
-.intro-single .intro-title {
-  text-transform: uppercase;
-  font-size: 3rem;
-}
-
-.intro-single .breadcrumb {
-  background-color: transparent;
-  color: #0078ff;
-}
-
-.intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
-}
-
-.intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
-}
-
-.intro-single .breadcrumb a {
-  color: #fff;
-}
-
-</style>
 </head>
 <body>
 
@@ -101,7 +51,7 @@
           <li class="l-section section section--is-active">
             <div class="intro">
               <div class="intro--banner">
-                <h1 class="intro-title mb-4">Online<br>Academy for</h1><br><h1 class="intro-subtitle"><span class="text-slider-items">Coders,Data Scientists, Machine Learning, Deep Learning</span><strong class="text-slider"></strong></h1>
+                <h1>Online<br>Academy for<br><span class="animate"></span></h1>
                 <button class="cta">Join a Course
                   <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                   <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -342,6 +292,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+  
+  <script src="typed.js"></script>
+  <script>
+    var typed =new Typed('animate', {
+      strings: [
+        "Python",
+        "Data Science",
+        "Robotics",
+        "Machine Learning",
+        "Deep Learning"
+        ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+  
 </body>
 </html>
 
