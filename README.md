@@ -3,7 +3,7 @@
 ### [Start Coding](http://rodincode.herokuapp.com)
 
 RODINcode is an online academy for coders interested in virtual robotics, python, data science and AI. 
-The courses are maintained by [Rohan Sahni](https://www.rohanishere.herokuapp.io).
+The courses are maintained by [Rohan Sahni](https://www.rodincode.herokuapp.com).
 
 [GITHUB](http://github.com/rodincode)
 
