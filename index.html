@@ -26,6 +26,11 @@
 			audio
 				{
 					visibility: hidden;
+					audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
 				}
 		</style>
 		<!-- Google Analytics Code
@@ -128,7 +133,7 @@
               </div>
             </div>
           
-          <audio controls autoplay loop id="myaudio">
+          <audio controls loop id="myaudio">
          <source src = "/assets/videoplayback (3).mp3" type = "audio/mpeg">
       </audio>
           <script>
