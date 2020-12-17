@@ -23,7 +23,7 @@
 			a {
 				cursor: pointer;
 			}
-			audio:hover, audio:focus, audio:active
+			audio
 				{
 					visibility: hidden;
 				}
@@ -134,6 +134,8 @@
           <script>
   var audio = document.getElementById("myaudio");
   audio.volume = 0.2;
+audio.autoplay = true;
+audio.load();
 </script>
        
 					
