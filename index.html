@@ -11,7 +11,13 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="icon" href="assets/img/favicon.ico" sizes="16x16" type="image/ico">
   <link rel="manifest" href="native.json">
-  <script type="application/ld+json">
+	<script>
+        //if browser support service worker
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('sw.js');
+        };
+      </script>
+	<script type="application/ld+json">
 			{
 			  "@type": "Projects And Programming Tutorials",
 			  "name": "RODINcode Academy",
