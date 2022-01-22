@@ -287,6 +287,8 @@ function createCanvas(){
   let tela = document.createElement('canvas');
       tela.width = $(window).width();
       tela.height = $(window).height();
+      tela.style.position = "absolute";
+      tela.style.zIndex = "-1";
       $("body").append(tela);
   let canvas = tela.getContext('2d');
   return [tela, canvas]
