@@ -2339,7 +2339,7 @@ audio.load();
         document.body.appendChild(renderer.domElement);
 
         let loader = new THREE.TextureLoader();
-        loader.load("./smoke.png", function(texture){
+        loader.load("/assets/nebula/smoke.png", function(texture){
           cloudGeo = new THREE.PlaneBufferGeometry(500,500);
           cloudMaterial = new THREE.MeshLambertMaterial({
             map:texture,
@@ -2361,7 +2361,7 @@ audio.load();
             scene.add(cloud);
           }
         });
-        loader.load("./stars.jpg", function(texture){
+        loader.load("/assets/nebula/stars.jpg", function(texture){
 
           const textureEffect = new POSTPROCESSING.TextureEffect({
             blendFunction: POSTPROCESSING.BlendFunction.COLOR_DODGE,
