@@ -69,7 +69,17 @@ function sendNotification(){
 }
 
 </script>
-
+<script>
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+    } else {
+        document.querySelector("#loader").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+</script>
 <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
 
 <link rel="stylesheet" type="text/css" href="/assets/nebula/styles.css" />
@@ -81,10 +91,22 @@ function sendNotification(){
 	text-shadow: 0 0 25px #fff
 	}
 
-
+#loader {
+           position: absolute;
+	background-color: #000;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+      
 </style>
 </head>
 <body>
+<div id="loader">
+	<img src="assets/img/infinite.gif" />
+</div>
     <div id="particles-js" style="
     background-color: transparent;
     position: absolute;
