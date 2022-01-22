@@ -287,7 +287,7 @@ function createCanvas(){
   let tela = document.createElement('canvas');
       tela.width = $(window).width();
       tela.height = $(window).height();
-      $("body").append(tela);
+      $("#plankton").append(tela);
   let canvas = tela.getContext('2d');
   return [tela, canvas]
 }
